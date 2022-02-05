@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Serif:ital@1&family=Supermercado+One&display=swap');
+
+body {
+    background-image: url("https://drive.google.com/uc?id=1RV86sPP1RMtbA8ohK4jPfCSx2uPGPTXe"); ;
+}
+
+#cuadro1 {
+    background-image: url("https://drive.google.com/uc?id=1hpHu6cPUK6A_cvJ9akkYcY2fg793UjF2");
+    text-align: center;
+    width: 340px;
+    height:240px;
+    padding: 5px;
+    margin: 10px;
+    position: absolute;
+    border: 2px solid;
+    left: 21%;
+    top: 20%;  
+}
+
+#Ctxt {
+    color: rgb(179, 179, 179);
+}
+
+#t1txt {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'PT Serif', serif;
+    font-family: 'Supermercado One', cursive;
+    color: rgb(250, 250, 250);
+}
+
+#cuadro01 {
+    background-color: rgb(0, 0, 0); 
+    text-align: center;
+    width: 350px;
+    height: 250px;
+    nav-up: auto;
+    border-color: rgb(136, 136, 136);
+    position: absolute;
+    border: 2px solid;
+    left: 120%;
+    top: 1%;
+}
+
+#ct01 {
+    color: aliceblue;
+}
+
+#bo01 {
+    background-color: rgba(0, 0, 0, 0.719);
+    color: antiquewhite;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+#bo01:hover{
+    background-color: rgba(0, 255, 0, 0.562);
+}
+
+.je {
+    background-color: aqua;
+}
+
+#spam {
+    background-image: url("https://drive.google.com/uc?id=1IX9f9Ipp5DEckugA1nUfrs5HoxBV0Bwf");
+    text-align: left;
+    width: 100px;
+    height:570px;
+    padding: 5px;
+    margin: 15px;
+    position: absolute;
+    border: 2px solid;
+    left: 5%;
+    top: 19%;
+}
+#datot{
+    color: rgb(141, 138, 138);
+}
+
+#dato1 {
+    color: rgb(155, 211, 0);
+}
+
+#dato2{
+    color: darkturquoise;
+}
+
+#dato3{
+    color: lime;
+}
+
+#dato4{
+    color: salmon;
+}
+
+#dato5{
+    color: yellow;
+}
+
+#titulosp{
+    background-image: url("https://drive.google.com/uc?id=1rjJhdtDMM_ou8mSsooKP_CmX74GTvoOI");
+    text-align: left;
+    width: 1150px;
+    height:50px;
+    padding: 10px;
+    margin: 15px;
+    position: absolute;
+    border: 2px solid;
+    left: 5%;
+    top: 2%;
+}
+
+#tt{
+    color: rgb(185, 221, 194);
+    margin: 0 auto ;
+    text-align: center;
+}
