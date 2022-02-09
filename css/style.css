@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,500;1,300;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,500;1,300;1,700&family=Oswald:wght@200;400;600&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -7,13 +7,19 @@
 .header {
     color: black;
     font-family: 'Karla', sans-serif;
-    position: absolute;
 }
 
-#harriba{
+.harriba{
     background-color: black;
     color: white;
     text-align: center;
+}
+
+.habajo{
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: absolute;
 }
 
 #head{
@@ -106,10 +112,11 @@
 
 .hus {
     background-color: lightgray;
-    padding: 20px;
     width: 100%;
     overflow: hidden;
     display: flex;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 #husi {
@@ -133,6 +140,46 @@
 
 .hus img{
     width: 400px;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////*/
+
+.foot {
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+}
+
+#footi h1{
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+.iconitos{
+    list-style: none;
+    text-align: center;
+    padding: 2px;
+}
+
+.iconitos a{
+    text-decoration: none;
+    color: white;
+}
+
+.iconitos a label{
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+}
+
+.iconitos a:hover{
+    color: lightgray;
+}
+
+.derechos {
+    text-align: center;
+    font-size: 10px;
+    padding: 12px;
 }
 
 @media screen and (max-width:900px){
